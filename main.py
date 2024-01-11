@@ -18,12 +18,7 @@ da razão", "c) natureza e da sociedade", "d) natureza e da sociedade", "c"]}
 
 respostas = []
 for pergunta in prova:
-    print(prova[pergunta][0])
-    print(prova[pergunta][1])
-    print(prova[pergunta][2])
-    print(prova[pergunta][3])
-    print(prova[pergunta][4])
-    print("Insira a resposta como 'a', 'b', 'c' ou 'c'")
+    print(prova[pergunta][0], prova[pergunta][1], prova[pergunta][2], prova[pergunta][3], prova[pergunta][4], "Insira a resposta como 'a', 'b', 'c' ou 'd'", sep='\n')
     respostas.append(input("Resposta: "))
     print("\n")
 
